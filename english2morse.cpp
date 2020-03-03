@@ -1,5 +1,5 @@
 #include <iostream>
-#include <fstream>
+#include <cstdlib>
 
 using namespace std;
 
@@ -103,7 +103,7 @@ void morsenc(string s) {
 }
 int main() {
     string s;
-    while(getline(cin,s)){
-    morsenc(s);}
+    getline(cin,s);
+    morsenc(s);
     return 0;
 } 
