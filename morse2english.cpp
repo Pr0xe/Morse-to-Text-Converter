@@ -28,7 +28,7 @@ char morse_to_text (const string flag){
 //decrypted message
 void morseEnglish(){
 	string  message, token, result;
-	while(getline(cin, message)){
+	getline(cin, message);
 	message += ' ';
     	for (int i=0; i<message.length(); i++){
 		if (message[i] == ' '){
@@ -39,7 +39,7 @@ void morseEnglish(){
         	}
         	else
             		token += message[i];
-	}}
+	}
     		cout << result << endl;  
 }
 int main(){
