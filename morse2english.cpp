@@ -23,8 +23,7 @@ char morse_to_text (const string flag){
     }
     return ' ';
 }
-//This function take the letter from above
-//and printing the final result with 
+//Printing the final result with 
 //decrypted message
 void morseEnglish(){
 	string  message, token, result;
